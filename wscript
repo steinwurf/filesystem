@@ -12,4 +12,4 @@ def build(bld):
 
     includes = directory.find_node("include")
 
-    bld(name="filesystem", export_includes=[includes], use=["filesystem"])
+    bld(name="filesystem", export_includes=[includes])
