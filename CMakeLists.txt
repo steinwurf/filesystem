@@ -21,10 +21,10 @@ endif()
 
 # Define library
 add_library(filesystem INTERFACE)
-target_compile_features(asio INTERFACE cxx_std_14)
+target_compile_features(filesystem INTERFACE cxx_std_14)
 
 target_include_directories(
-    asio INTERFACE "${STEINWURF_RESOLVE}/filesystem-source/include")
+    filesystem INTERFACE "${STEINWURF_RESOLVE}/filesystem-source/include")
 
 add_library(steinwurf::filesystem ALIAS filesystem)
 

@@ -1,4 +1,4 @@
-News for asio
+News for filesystem
 =============
 
 This file lists the major changes between versions. For a more detailed list of
@@ -8,10 +8,6 @@ Latest
 ------
 * tbd
 
-1.1.0
+1.5.14
 -----
-* Minor: Added Cmake Support.
-
-1.0.0
------
-* Initial release of ASIO 1.24.0
+* Initial release of filesystem 1.5.14
